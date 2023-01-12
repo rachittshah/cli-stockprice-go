@@ -1,3 +1,5 @@
+## About
+
 This Go script is a web scraper that uses the Colly library to scrape historic stock data from Yahoo Finance and plot it using the Asciigraph library. The script takes a stock symbol as a command-line argument, with "MSFT" as the default symbol.
 
 In the main function, the script starts a timer and sets up a command-line flag for the stock symbol. It then calls the getHistoricData() function, passing in the stock symbol from the command-line flag. After the getHistoricData() function completes, the script prints the time it took to run the code.
@@ -8,7 +10,7 @@ The callback for when the HTML body is received, the script parses the data from
 
 Finally, the function visits the Yahoo Finance page for the specific stock symbol passed in and wait for all the requests to complete.
 
-## How to install and use
+## Installation
 
 To install and use this script, you will need to have Go installed on your system. You can check if Go is installed by running ```go version``` in your command line. If Go is not installed, you can download and install it from the official [Go website](https://golang.org/dl/).
 
